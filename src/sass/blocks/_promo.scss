@@ -6,9 +6,12 @@
         display: flex;
     }
     &__icon {
+        // background:aliceblue;
+        color:aliceblue;
         width: 100px;
         img {
             width: 100%;
+            filter: invert(100%);
         }
     }
     &__wrapper {
@@ -27,6 +30,7 @@
         font-weight: 500;
         color: #fbba05;
         text-transform: uppercase;
+        padding-bottom: 70px;
     }
 }
 
