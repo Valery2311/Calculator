@@ -9,9 +9,17 @@
         }
     }
     &__official {
-        color: #ffffff;
+        color: rgb(0, 0, 0);
         font-size: 42px;
         font-weight: 500;
+        color: #ffffff;
+        text-transform: uppercase;
+        span {
+            display: block;
+            
+            font-size: 28px;
+            text-align: right;
+        }
     }
     &__phone {
         display: block;
@@ -22,5 +30,10 @@
         &:hover {
             color: #dd9e9e;
         }
-    }    
+    } 
+    &__contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }   
 }
