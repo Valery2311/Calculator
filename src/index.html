@@ -42,8 +42,40 @@
 
     </div>
 
-    <div class="form">
-        <h2 class="form__header">укажи желаемое состояние и марку пива</h2>
+    <div class="consult">
+        <h2 class="consult__header">укажи желаемое состояние и сорт пива</h2>
+        <div class="consult__subheader">Выбирай пиво</div>
+        <form class="feed-form" action="#">
+
+            <div class="consult__radio-group">
+                
+                <div class="consult__item">
+                    <input id="radio-1" type="radio" name="radio" value="1" checked>
+                    <label for="radio-1">темное</label>
+                </div>
+                <div class="consult__item">
+                    <input id="radio-2" type="radio" name="radio" value="2">
+                    <label for="radio-2">светлое</label>
+                </div>
+                <div class="consult__item">
+                    <input id="radio-3" type="radio" name="radio" value="3">
+                    <label for="radio-3">крепкое</label>
+                </div>
+                
+            </div>
+
+            <!-- <label for="radio"></label>
+            <div class="consult__type-beer"><b>Какое пиво предпочитаешь</b><Br>
+                <input type="radio" name="beer" value="dark">темное
+                <input type="radio" name="beer" value="light">светлое
+                <input type="radio" name="beer" value="hard">крепкое
+            </div> -->
+            
+            <input name="phone" required placeholder="Твой вес дружище" type="number"> 
+            <input name="email" required placeholder="Ваш E-mail" type="email"> 
+
+            <button class="button button_submit">заказать консультацию</button>
+        </form>
     </div>
     
 </body>
