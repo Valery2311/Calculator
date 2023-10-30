@@ -1,8 +1,17 @@
-
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
 
 .container {
     max-width: 1100px;
     margin: 0 auto;
+}
+
+.background {
+    background:url(../../img/bg/bg.jpg) center (center/cover) no-repeat;
+    filter: brightness(50%);
+    padding-top: 30px;
+
 }
 
 @import 'blocks/promo';
