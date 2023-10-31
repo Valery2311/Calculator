@@ -1,14 +1,15 @@
-// .feed-form {
-//     display: flex;
-//     flex-direction: column;
-//     input {
-//         height: 50px;
-//         border-radius: 5px;
-//         // background-color: rgb(160, 138, 43);
-//         margin-bottom: 15px;
-//         border: none;
-//         text-align: center;
-//         font-size: 40px;
-//         font-weight: 300;
-//     }
-// }
+.feed-form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    input {
+        height: 40px;
+        border-radius: 5px;
+        // background-color: rgb(160, 138, 43);
+        margin-bottom: 15px;
+        border: none;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 300;
+    }
+}
