@@ -46,9 +46,9 @@
         <div class="container">
             <h2 class="consult__title">заполните форму</h2>
             <div class="consult__descr">укажите крепость напитка,<br> ваш вес и нажмите на кнопку</div>
-            <form class="feed-form" action="#">
-                <input name "degr" required placeholder="крепость напитка" type="number">
-                <input name "weigh" required placeholder="твой вес" type="number">
+            <form class="feed-form" action="https://pivo.studygroup.site/api/v1/calculate" method="post">
+                <input name="degr" required placeholder="крепость напитка" type="number">
+                <input name="weigh" required placeholder="твой вес" type="number">
                 <button class="button button_submit">расчитать количество и состояние</button>
             </form>
         </div>
